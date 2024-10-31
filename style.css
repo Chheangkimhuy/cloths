@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+body{
+    height: 400vh;
+    background-attachment: #afafaf;
+}
+.container-fluid{
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.nav-link{
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+.nav-link:hover{
+    color:#03a903;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.search{
+    height: 40px;
+    outline: none;
+    border: 1px solid #03a903;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+.btn-submit{
+    outline: none;
+    border: 1px solid #03a903;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #03a903;
+    color: #fff;
+}
+/* main */
+.main{
+    width: 90%;
+    height: 100vh;
+    background-image: url(cloths.jpeg);
+    background-size: cover;
+    margin: auto;
+}
+.main .line{
+    width: 30%;
+    border: 1px solid #03a903;
+}
+.main .main-text{
+    margin-top: 10rem;
+}
+/*product*/
+.product .line{
+    width: 30%;
+    height: 4px;
+    background-color: #03a903;
+}
+.product .main-text{
+    margin-top: 5rem;
+
+}
+
+.product .star{
+    color: orange;
+    text-align: end;
+}
+.broduct .card-body{
+    border: 1px solid #444;
+    border-radius: 4px;
+    
+}
+.img{
+    height: 240px;
+}
